@@ -16,8 +16,8 @@ void setup()
   pinMode(LED1, OUTPUT);
   pinMode(LED2, OUTPUT);
   //Initialize Button digital pin as an Output
-  pinMode(Button1, OUTPUT);
-  pinMode(Button2, OUTPUT);
+  pinMode(Button1, INPUT);
+  pinMode(Button2, INPUT);
 }
 
 void loop() 
