@@ -1,8 +1,5 @@
 #include <Arduino.h>
 
-//Define variable name for Storing Timer Value
-int Timer = 0;
-
 void setup() 
 {
   //Initialize LED digital pin as an Output
